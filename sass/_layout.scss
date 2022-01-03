@@ -88,7 +88,7 @@
         background-color: $color-white;
         box-shadow: $shadow-main;
         padding: 0 1rem;
-        flex: 1 1 auto;
+        flex: 0 1 48%;
 
         &:nth-child(-n + 2) {
             margin-top: 1.5rem;

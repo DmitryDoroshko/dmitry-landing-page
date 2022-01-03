@@ -138,7 +138,7 @@ body {
     background-color: #fff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     padding: 0 1rem;
-    flex: 1 1 auto; }
+    flex: 0 1 48%; }
     .recent-posts__item:nth-child(-n + 2) {
       margin-top: 1.5rem; }
     .recent-posts__item:nth-last-child(-n + 2) {
