@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+
+$main-font-family: "Heebo", sans-serif;
+$color-primary: #ff6464;
+$color-primary-dark: #b82121;
+$color-secondary: #00a8cc;
+$color-dark: #21243d;
+$color-light: #8695a4;
+
+$color-background-main: #e5e5e5;
+
+$color-black: #000;
+$color-white: #fff;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // 10px out of default size 16px
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $main-font-family;
+    background-color: rgba($color-background-main, 0.8);
+}
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
+}
