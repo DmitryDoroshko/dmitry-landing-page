@@ -41,6 +41,16 @@ body {
   font-size: 4.4rem;
   font-weight: 700; }
 
+.heading-2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.8rem; }
+
+.mini-heading {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 6rem; }
+
 .btn:link, .btn:visited {
   color: #fff;
   padding: 1rem 2rem;
@@ -101,3 +111,47 @@ body {
   .header__img-itself {
     height: auto;
     width: 100%; }
+
+.recent-posts {
+  background-color: #edf7fa; }
+  .recent-posts__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .recent-posts__link:link, .recent-posts__link:visited {
+    display: block;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #00a8cc;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-top: 2rem; }
+  .recent-posts__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -1rem; }
+  .recent-posts__heading {
+    margin-bottom: 1.7rem; }
+  .recent-posts__item {
+    background-color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    padding: 0 1rem;
+    flex: 1 1 auto; }
+    .recent-posts__item:nth-child(-n + 2) {
+      margin-top: 1.5rem; }
+    .recent-posts__item:nth-last-child(-n + 2) {
+      margin-bottom: 5rem; }
+  .recent-posts__date-items {
+    margin-bottom: 1.1rem; }
+    .recent-posts__date-items span {
+      display: inline-block;
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 2.6rem; }
+      .recent-posts__date-items span:first-child {
+        padding-right: 2rem;
+        border-right: 1px solid #000; }
+      .recent-posts__date-items span:last-child {
+        padding-left: 2rem; }
