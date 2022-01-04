@@ -46,6 +46,11 @@ body {
   font-weight: 700;
   line-height: 3.8rem; }
 
+.heading-3 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4.4rem; }
+
 .mini-heading {
   font-weight: 400;
   font-size: 2.2rem;
@@ -155,3 +160,42 @@ body {
         border-right: 1px solid #000; }
       .recent-posts__date-items span:last-child {
         padding-left: 2rem; }
+
+.work {
+  background-color: #fff;
+  padding: 3rem; }
+  .work__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .work__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    margin: 0 -0.9rem; }
+  .work__item > * {
+    padding: 0 0.9rem; }
+  .work__right-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .work__year-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; }
+  .work__year {
+    margin-right: 3rem;
+    color: #fff;
+    background-color: #142850;
+    padding: 0.5rem 1rem;
+    font-weight: 900;
+    font-size: 1.8rem;
+    border-radius: 100px;
+    line-height: 1; }
+  .work__title {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #8695a4; }
