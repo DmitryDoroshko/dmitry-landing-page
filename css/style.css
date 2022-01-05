@@ -291,3 +291,30 @@ body {
     margin-bottom: 2rem; }
   .dashboards__heading--2 {
     margin-bottom: 2rem; }
+
+.footer {
+  height: 13rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .footer__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .footer__icons {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 2rem; }
+  .footer__link:not(:last-child) {
+    margin-right: 3.5rem; }
+  .footer__link:visited, .footer__link:link {
+    display: inline-block;
+    text-decoration: none; }
+  .footer__icon:not(:last-child) {
+    margin-right: 3.5rem; }
+  .footer__copyright {
+    text-align: center; }

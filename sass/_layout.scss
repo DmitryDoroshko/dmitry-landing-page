@@ -306,3 +306,44 @@
         margin-bottom: 2rem;
     }
 }
+
+.footer {
+    height: 13rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__icons {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    &__link {
+        &:not(:last-child) {
+            margin-right: 3.5rem;
+        }
+        &:visited,
+        &:link {
+            display: inline-block;
+            text-decoration: none;
+        }
+    }
+
+    &__icon:not(:last-child) {
+        margin-right: 3.5rem;
+    }
+
+    &__copyright {
+        text-align: center;
+    }
+}
