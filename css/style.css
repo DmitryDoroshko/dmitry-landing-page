@@ -12,7 +12,7 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Heebo", sans-serif;
-  background-color: rgba(229, 229, 229, 0.8); }
+  background-color: #fff; }
 
 ::selection {
   background-color: #ff6464;
@@ -245,3 +245,49 @@ body {
     color: #8695a4; }
   .blog__paragraph {
     margin-bottom: 2.5rem; }
+
+.dashboards {
+  background-color: #fff; }
+  .dashboards__item {
+    display: flex;
+    flex-direction: column; }
+  .dashboards__item--1 {
+    margin-bottom: 5.4rem; }
+  .dashboards__heading-main {
+    max-width: 40rem;
+    width: 100%;
+    margin-bottom: 3rem; }
+  .dashboards__year-stuff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2.3rem; }
+  .dashboards__year {
+    margin-right: 3rem;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-weight: 900;
+    font-size: 1.8rem;
+    border-radius: 100px;
+    line-height: 1;
+    background-color: #ff6464; }
+  .dashboards__year-heading {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem; }
+  .dashboards__paragraph {
+    margin-bottom: 4.6rem; }
+  .dashboards__images {
+    width: 100%; }
+  .dashboards__img {
+    width: 100%;
+    box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.3); }
+  .dashboards__img:nth-child(odd) {
+    margin-bottom: 5rem; }
+  .dashboards__item--2 {
+    margin-top: 3rem;
+    margin-bottom: 7.8rem; }
+  .dashboards__heading--1 {
+    margin-bottom: 2rem; }
+  .dashboards__heading--2 {
+    margin-bottom: 2rem; }
