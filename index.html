@@ -9,11 +9,53 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     </head>
     <body>
+        <div class="navigation">
+            <input
+                type="checkbox"
+                class="navigation__checkbox"
+                id="navi-toggle"
+            />
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon"></span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#works" class="navigation__link"
+                            ><span>01</span>Works</a
+                        >
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#blog" class="navigation__link"
+                            ><span>02</span>Blog</a
+                        >
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#recent-posts" class="navigation__link"
+                            ><span>03</span>Recent posts</a
+                        >
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#dashboards" class="navigation__link"
+                            ><span>04</span>Dashboards</a
+                        >
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#contact" class="navigation__link"
+                            ><span>05</span>Contact</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
         <header class="header">
-            <nav class="nav">
-                <a href="#" class="nav__link nav__link--active">Works</a>
-                <a href="#" class="nav__link">Blog</a>
-                <a href="#" class="nav__link">Contact</a>
+            <nav class="nav" id="nav">
+                <a href="#works" class="nav__link nav__link--active">Works</a>
+                <a href="#blog" class="nav__link">Blog</a>
+                <a href="#recent-posts" class="nav__link">Recent posts</a>
+                <a href="#contact" class="nav__link">Contact</a>
             </nav>
             <div class="container">
                 <div class="header__main">
@@ -41,7 +83,7 @@
         </header>
         <!-- HEADER END -->
         <main>
-            <section class="recent-posts">
+            <section class="recent-posts" id="recent-posts">
                 <div class="container">
                     <div class="recent-posts__head">
                         <span class="mini-heading">Recent posts</span>
@@ -82,7 +124,7 @@
                 </div>
             </section>
             <!-- RECENT POSTS SECTION END -->
-            <section class="work">
+            <section class="work" id="works">
                 <div class="container">
                     <h2 class="heading-2 work__heading">Work</h2>
                     <div class="work__content">
@@ -191,7 +233,7 @@
                 </div>
             </section>
             <!-- WORK SECTION END -->
-            <section class="blog">
+            <section class="blog" id="blog">
                 <div class="container">
                     <h2 class="heading-2 blog__heading">Blog</h2>
                     <div class="blog__content">
@@ -279,7 +321,7 @@
                 </div>
             </section>
             <!-- BLOG SECTION END -->
-            <section class="dashboards">
+            <section class="dashboards" id="dashboards">
                 <div class="container">
                     <div class="dashboards__item dashboards__item--1">
                         <h2 class="heading-2 dashboards__heading-main">
@@ -338,7 +380,7 @@
         </main>
         <!-- MAIN END -->
 
-        <footer class="footer">
+        <footer class="footer" id="contact">
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__icons">
@@ -372,7 +414,8 @@
                         </a>
                     </div>
                     <div class="footer__copyright">
-                        Copyright © 2022 by Dmitry Doroshko. All rights reserved
+                        Copyright © 2022 by Dmitry Doroshko. Telegram:
+                        @nosanctuary. All rights reserved
                     </div>
                 </div>
             </div>

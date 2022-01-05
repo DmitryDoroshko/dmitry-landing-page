@@ -3,6 +3,10 @@
     flex-direction: row;
     justify-content: flex-end;
 
+    @media only screen and (max-width: $breakpoint-big) {
+        display: none;
+    }
+
     &__link:not(:last-child) {
         margin-right: 3rem;
     }
@@ -85,4 +89,15 @@
     font-style: normal;
     font-size: 1.6rem;
     line-height: 2.4rem;
+}
+
+.burger-btn {
+    position: relative;
+    display: block;
+    width: 3rem;
+    height: 3px;
+    background-color: $color-dark-2;
+    top: 0;
+    right: 0;
+    cursor: pointer;
 }
