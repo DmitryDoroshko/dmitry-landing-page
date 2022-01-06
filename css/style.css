@@ -296,6 +296,9 @@ body {
   .blog__heading {
     margin-bottom: 2.5rem;
     font-size: 4.4rem; }
+    @media only screen and (max-width: 43.75em) {
+      .blog__heading {
+        text-align: center; } }
   .blog__sub-heading {
     line-height: 1;
     margin-bottom: 1.5rem; }
@@ -306,6 +309,11 @@ body {
   .blog__item {
     margin-top: 3rem;
     border-bottom: 1px solid #e0e0e0; }
+    @media only screen and (max-width: 43.75em) {
+      .blog__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
   .blog__date-row {
     margin-bottom: 1.5rem;
     display: flex;
@@ -325,6 +333,9 @@ body {
     color: #8695a4; }
   .blog__paragraph {
     margin-bottom: 2.5rem; }
+    @media only screen and (max-width: 43.75em) {
+      .blog__paragraph {
+        padding: 0 10%; } }
 
 .dashboards {
   background-color: #fff; }
