@@ -20,7 +20,9 @@ $shadow-main: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 $shadow-darker: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.3);
 
 // Breakpoints
+$breakpoint-bigger: 56.25em; // 900px
 $breakpoint-big: 50em; //800px
+$breakpoint-small-big: 43.75em; // 700px
 $breakpoint-medium: 37.5em; //600px
 $breakpoint-small: 25em; //400px
 
@@ -34,6 +36,10 @@ $breakpoint-small: 25em; //400px
 
 html {
     font-size: 62.5%; // 10px out of default size 16px
+
+    @media only screen and (max-width: $breakpoint-bigger) {
+        font-size: 56.25%;
+    }
 
     @media only screen and (max-width: $breakpoint-big) {
         font-size: 50%; // 8px

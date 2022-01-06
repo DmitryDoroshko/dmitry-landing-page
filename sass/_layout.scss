@@ -18,6 +18,10 @@
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+        flex-wrap: wrap;
+        @media only screen and (max-width: $breakpoint-small-big) {
+            align-items: center;
+        }
     }
 
     &__content {
@@ -26,6 +30,12 @@
         justify-content: space-between;
         margin-bottom: 18.8rem;
         flex: 0 0 70%;
+        @media only screen and (max-width: $breakpoint-small-big) {
+            text-align: center;
+            align-items: center;
+            flex-basis: 100%;
+            margin-bottom: 0;
+        }
     }
 
     &__heading-main {
@@ -35,16 +45,26 @@
     &__text {
         padding: 0px 15% 0px 0px;
         margin-bottom: 4.5rem;
+        @media only screen and (max-width: $breakpoint-small-big) {
+            text-align: center;
+            padding-left: 15%;
+        }
     }
 
     &__btn {
         width: 21rem;
+        @media only screen and (max-width: $breakpoint-small-big) {
+            margin-bottom: 3rem;
+        }
     }
 
     &__picture {
         flex: 0 0 30%;
         display: flex;
         flex-direction: column;
+        @media only screen and (max-width: $breakpoint-small-big) {
+            margin-bottom: 3rem;
+        }
     }
 
     &__img-itself {
@@ -60,6 +80,9 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        @media only screen and (max-width: $breakpoint-small-big) {
+            justify-content: center;
+        }
     }
 
     &__link {
@@ -72,6 +95,9 @@
             text-decoration: none;
             font-size: 1.6rem;
             margin-top: 2rem;
+            @media only screen and (max-width: $breakpoint-small-big) {
+                margin-left: 3rem;
+            }
         }
     }
 
@@ -81,6 +107,10 @@
         justify-content: space-between;
         flex-wrap: wrap;
         margin: 0 -1rem;
+        @media only screen and (max-width: $breakpoint-small-big) {
+            justify-content: center;
+            margin: 0;
+        }
     }
 
     &__heading {
@@ -99,6 +129,14 @@
 
         &:nth-last-child(-n + 2) {
             margin-bottom: 5rem;
+        }
+
+        @media only screen and (max-width: $breakpoint-small-big) {
+            flex-basis: 75%;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium) {
+            flex-basis: 85%;
         }
     }
 
@@ -127,15 +165,21 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     &__item {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
         padding: 1.5rem 0 4.7rem 0;
         margin: 0 -0.9rem;
         border-bottom: 1px solid $color-light-grey;
+
+        @media only screen and (max-width: $breakpoint-big) {
+            justify-content: center;
+        }
     }
 
     &__item > * {
@@ -147,16 +191,30 @@
     }
 
     &__picture {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 34%;
+        text-align: center;
+        @media only screen and (max-width: $breakpoint-big) {
+            justify-content: center;
+        }
     }
 
     &__img {
         height: 100%;
+        display: inline-block;
     }
 
     &__right-inner {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        flex-basis: 64%;
+
+        @media only screen and (max-width: $breakpoint-big) {
+            flex-basis: 75%;
+            text-align: center;
+        }
     }
 
     &__year-content {
