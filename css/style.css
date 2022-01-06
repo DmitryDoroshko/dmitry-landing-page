@@ -342,6 +342,10 @@ body {
   .dashboards__item {
     display: flex;
     flex-direction: column; }
+    @media only screen and (max-width: 43.75em) {
+      .dashboards__item {
+        width: 90%;
+        margin: 0 auto; } }
   .dashboards__item--1 {
     margin-bottom: 5.4rem; }
   .dashboards__heading-main {
@@ -370,6 +374,10 @@ body {
     margin-bottom: 4.6rem; }
   .dashboards__images {
     width: 100%; }
+    @media only screen and (max-width: 43.75em) {
+      .dashboards__images {
+        width: 90%;
+        margin: 0 auto; } }
   .dashboards__img {
     width: 100%;
     box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.3); }
