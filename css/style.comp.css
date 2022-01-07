@@ -540,7 +540,7 @@ body {
     margin-right: 1.5rem;
     display: inline-block; }
   .navigation__checkbox:checked ~ .navigation__background {
-    transform: scale(100); }
+    transform: scale(150); }
   .navigation__checkbox:checked ~ .navigation__nav {
     opacity: 1;
     visibility: visible;
