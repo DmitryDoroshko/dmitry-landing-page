@@ -418,6 +418,18 @@
             display: inline-block;
             text-decoration: none;
         }
+
+        &--dimitri {
+            transition: all 0.2s;
+            color: $color-light-grey;
+            &:hover {
+                transform: translateY(-3px) scale(1.1) skew(-10deg, 5deg);
+                box-shadow: $shadow-main;
+                background-color: $color-primary;
+                color: $color-white;
+            }
+            color: rgba($color-black, 0.8);
+        }
     }
 
     &__icon:not(:last-child) {
